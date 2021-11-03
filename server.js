@@ -12,9 +12,9 @@ app.use(express.json());
 const db = mysql.createConnection(
     {
         host: 'localhost',
-        user: '',
+        user: 'root',
         password: '',
-        database: 'election'
+        database: ''
     },
     console.log('Connected to the election database.')
 );
